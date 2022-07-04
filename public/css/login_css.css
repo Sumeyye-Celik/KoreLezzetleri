@@ -1,0 +1,478 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+            
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Quicksand", sans-serif;
+    background: rgb(209,77,77);
+    background: linear-gradient(90deg, rgba(209,77,77,1) 20%, rgba(64,78,200,1) 80%);
+
+}
+
+#krfood1{
+    position: fixed;
+    top: 80px;
+    left: 17px;
+}
+
+#krfood2{
+    position: fixed;
+    top: 80px;
+    right: 17px;
+}
+
+.nav_head{
+    background: rgba(167, 164, 164, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    height: 60px;
+    width: 1279px;
+    top: 0px;
+    left: 120px;
+    right: 120px;
+}
+
+
+.nav_title{ 
+    position:absolute;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+    top: 3px;
+    left: 45px;
+    opacity: 2;
+    z-index: 1;
+}
+
+#logo{
+    position:absolute;
+    margin-top: 0px;
+    left: 15px;
+    opacity: .8;
+}
+
+.nav-item{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 23px;
+    padding-right: 20px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+}
+
+/* #signin{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+    top: 10px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+}
+
+#login{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+    top: 10px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+} */
+
+.dropbtn {
+    border-radius: 6px;
+    color: black;
+    right: 40px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block; 
+}
+
+.dropdown-content {
+    float: right;
+    display: none;
+    position: absolute;
+    margin-top: 28px;
+    background-color:rgba(223, 222, 222, 1);
+    border-radius: 8px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    float:right;
+}
+
+/* .dropdown:hover .dropbtn {
+    background-color: white;
+} */
+
+/* #mainpage{
+    color: black;
+} */
+
+.contanier{
+    width: 75%;
+   margin: auto;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+.colon{
+    position: relative;
+    max-width: 100%;
+    max-height: 550%;
+    margin: 5.5% 15%;
+    background: rgba(223, 222, 222, 0.6);
+    border-radius: 15px;
+    padding: 40px 20px;
+    float: center;
+    z-index: -1;
+}
+
+.tarif-img{
+    border-radius: 15px;
+    position: relative;
+    margin: 5px 40px;
+    top: 0;
+    float: left;
+    
+}
+
+#tarif-name{
+    position: relative;
+    left: 100px;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.tarif-list{
+    position: relative;
+    left: 100px;
+    font-size: 22px;
+    top: 0;
+}
+
+.text-tarif{
+    position: relative;
+    font-size: 20px;
+
+}
+
+
+.altkolon{
+    background: rgba(167, 164, 164, 0.6);
+    border-radius: 10px;
+    position:absolute;
+    z-index: -1;
+    height: 60px;
+    width: 1279px;
+    top: 700px;
+    left: 120px;
+    right: 120px;
+    transition: top 0.3s;
+}
+
+#takip{
+    position: absolute;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 510px;
+    top: 10px;
+    text-decoration: none; 
+    color: black;
+}
+
+#logo1{
+    position:absolute;
+    left: 715px;
+    top:10px;
+
+}
+
+#logo2{
+    position:absolute;
+    left: 760px;
+    top: 12px;
+    height: 35px;
+    width: 35px;
+}
+
+.rectangle1 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 8px;
+    left: 16px;
+    }
+
+    .rectangle2 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 8px;
+    left: 69px;
+    }
+
+    .rectangle3 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 25px;
+    left: 16px;
+    }
+
+    .rectangle4 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 41px;
+    left: 16px;
+    }
+
+    .rectangle5 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 41px;
+    left: 69px;
+    }
+
+    .rectangle6 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    /*top: 756px;*/
+    bottom: 41px;
+    left: 16px;
+    }
+
+    .rectangle7 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+   /* top: 738px;*/
+    bottom: 25px;
+    left: 16px;
+    }
+
+    .rectangle8 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    /*top: 721px;*/
+    bottom: 9px;
+    left: 16px;
+    }
+
+    .rectangle9 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 8px;
+    right: 16px;
+    }
+
+    .rectangle10 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 8px;
+    right: 69px;
+    }
+
+    .rectangle11 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 25px;
+    right: 16px;
+    }
+
+    .rectangle12 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 25px;
+    right: 69px;
+    }
+
+    .rectangle13 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 41px;
+    right: 16px;
+    }
+
+    .rectangle14 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    top: 41px;
+    right: 69px;
+    }
+
+    .rectangle15 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position:fixed;
+    /*top: 721px;*/
+    bottom: 41px;
+    right: 16px;
+    }
+
+    .rectangle16 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position: fixed;
+    bottom: 25px;
+    /*top: 738px;*/
+    right: 69px;
+    }
+
+    .rectangle17 {
+    width: 48px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position: fixed;
+    /*top: 738px;*/
+    bottom: 25px;
+    right: 16px;
+    }
+
+    .rectangle18 {
+    width: 101px;
+    height: 12px;
+    background: rgb(252, 252, 252);
+    position: fixed;
+    /*top: 756px;*/
+    bottom: 9px;
+    right: 16px;
+    }
+
+    .girisform{
+        position:absolute;
+        max-width: 100%;
+        max-height: 550%;
+        margin: 5.5% 15%;
+        background: rgba(223, 222, 222, 0.6);
+        border-radius: 15px;
+        padding: 40px 20px;
+        float: center;
+        z-index: -1;
+        left: 130px;
+        top: 80px;
+        
+    }
+
+    form {
+        border: 3px solid #f1f1f1;
+      }
+      
+      /* Full-width inputs */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      /* Set a style for all buttons */
+      button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      /* Add a hover effect for buttons */
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra style for the cancel button (red) */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+      }
+      
+      /* .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+      img.avatar {
+        width: 40%;
+        border-radius: 50%;
+      } */
+
+      .container {
+        padding: 16px;
+      }
+
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+
+      @media screen and (max-width: 300px) {
+        span.psw {
+          display: block;
+          float: none;
+        }
+        .cancelbtn {
+          width: 100%;
+        }
+      }
