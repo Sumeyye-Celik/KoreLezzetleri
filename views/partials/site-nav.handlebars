@@ -1,0 +1,54 @@
+ <div class="nav_head">
+            <div class="nav_menu">
+                    <a href="/">
+                        <img id="logo" src="../image/noodles.png" alt="" height="30px" width="30px" >
+                    </a>
+                    
+                    <div class="nav_title" href="/index" >
+                        <a id="mainpage" href="/" style="text-decoration: none; left: 200px; color:black">
+                            KORE LEZZETLERİ
+                        </a> 
+                    </div>
+
+                    <ul class="navbar-nav text-uppercase ml-auto" style="top: 5px;">
+
+                        {{#unless dislayLink}}
+                        <li class="nav-item" style="list-style-type:none;">
+                            <a id="signin" href="/users/signin" style="text-decoration: none; color: black; right: 85px;" >Kayıt</a>
+                        </li>
+
+                        <li class="nav-item" style="list-style-type:none;">
+                            <a id="login" href="/users/login" style="text-decoration: none; color: black; right: 85px;" >Giriş</a>
+                        </li>
+                        {{/unless}}
+
+                        {{#if displayLink}}
+                        <li class="nav-item" style="list-style-type:none;">
+                            <a id="login" href="/users/logout" style="text-decoration: none; color: black; right: 85px;" >Çıkış</a>
+                        </li>
+                        {{/if}}
+
+                        <li class="nav-item" style="list-style-type:none;">
+                            <div class="dropdown" style="float: right;">
+                                <div class="dropbtn" >Türler :</div>
+                                    <div class="dropdown-content">
+                                        <a href="#">Çorbalar</a>
+                                        <a href="#">Salatalar</a>
+                                        <a href="#">Noodlelar</a>
+                                        <a href="#">Pilavlar</a>
+                                        <a href="#">Deniz Ürünleri</a>
+                                        <a href="#">Sebze Yemekleri</a>
+                                        <a href="#">Tavuk Yemekleri</a>
+                                        <a href="#">Et Yemekleri</a>
+                                        <a href="#">Tatlılar</a>
+                                    </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    
+
+                    
+            </div>
+
+        </div>
