@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+            
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Quicksand", sans-serif;
+    background: rgb(209,77,77);
+    background: linear-gradient(90deg, rgba(209,77,77,1) 20%, rgba(64,78,200,1) 80%);
+
+}
+
+#krfood1{
+    position: fixed;
+    top: 80px;
+    left: 17px;
+}
+
+#krfood2{
+    position: fixed;
+    top: 80px;
+    right: 17px;
+}
+
+
+.nav_head{
+    background: rgba(167, 164, 164, 0.6);
+    border-radius: 10px;
+    position:absolute;
+    height: 60px;
+    width: 1279px;
+    top: 0px;
+    left: 120px;
+    right: 120px;
+    transition: top 0.3s;
+}
+
+
+.nav_title{ 
+    position:absolute;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+    top: 3px;
+    left: 45px;
+    opacity: 2;
+    z-index: 1;
+}
+
+
+#logo{
+    position:absolute;
+    margin-top: 0px;
+    left: 15px;
+    opacity: .8;
+}
+
+.nav-item{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 23px;
+    padding-right: 20px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+}
+
+/* #signin{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+    top: 10px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+}
+
+#login{
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+    top: 10px;
+    color: black;
+    opacity: 2;
+    z-index: 1;
+} */
+
+.dropbtn {
+    border-radius: 6px;
+    color: black;
+    right: 40px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block; 
+}
+
+.dropdown-content {
+    float: right;
+    display: none;
+    position: absolute;
+    margin-top: 28px;
+    background-color:rgba(223, 222, 222, 1);
+    border-radius: 8px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    float:right;
+}
+
+/* .dropdown:hover .dropbtn {
+    background-color: white;
+} */
+
+/* #mainpage{
+    color: black;
+} */
+
+
+#tarif-img{
+    border-radius: 8px;
+}
+
+.section{
+width: 100%;
+height: 100vh;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 140px 0;
+display: block;
+margin: auto;
+}
+.conteiner{
+   width: 75%;
+   margin: auto;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+.colon{
+   position: relative;
+   max-width: 300px;
+   left: 50px;
+   max-height: 550px;
+   margin: 2%;
+   background: rgba(223, 222, 222, 0.6);
+   border-radius: 15px;
+   padding: 40px 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  float: left;
+  z-index: -1;
+ 
+}
+
+.colon:hover{
+   -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.title h2{
+   position: relative;
+   margin: 20px 0 0;
+   padding: 0;
+   color: rgb(0, 0, 0);
+   font-size: 28px;
+   z-index: 2;
+   
+}
+
+.malzemeler{
+    position: relative;
+    z-index: 2;
+}
+
+.malzemeler ul{
+    margin: 0;
+    padding: 0;
+    list-style:square;
+}
+
+.malzemeler ul li{
+    margin: 0 0 10px;
+    padding: 0;
+    list-style:square;
+    list-style-position: inside;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.tarif1{
+    width: 200px;
+    height: 360px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+}
+
+.rectangle1 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 8px;
+left: 16px;
+}
+
+.rectangle2 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 8px;
+left: 69px;
+}
+
+.rectangle3 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 25px;
+left: 16px;
+}
+
+.rectangle4 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 41px;
+left: 16px;
+}
+
+.rectangle5 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 41px;
+left: 69px;
+}
+
+.rectangle6 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+/*top: 756px;*/
+bottom: 41px;
+left: 16px;
+}
+
+.rectangle7 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+/* top: 738px;*/
+bottom: 25px;
+left: 16px;
+}
+
+.rectangle8 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+/*top: 721px;*/
+bottom: 9px;
+left: 16px;
+}
+
+.rectangle9 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 8px;
+right: 16px;
+}
+
+.rectangle10 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 8px;
+right: 69px;
+}
+
+.rectangle11 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 25px;
+right: 16px;
+}
+
+.rectangle12 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 25px;
+right: 69px;
+}
+
+.rectangle13 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 41px;
+right: 16px;
+}
+
+.rectangle14 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+top: 41px;
+right: 69px;
+}
+
+.rectangle15 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position:fixed;
+/*top: 721px;*/
+bottom: 41px;
+right: 16px;
+}
+
+.rectangle16 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position: fixed;
+bottom: 25px;
+/*top: 738px;*/
+right: 69px;
+}
+
+.rectangle17 {
+width: 48px;
+height: 12px;
+background: rgb(252, 252, 252);
+position: fixed;
+/*top: 738px;*/
+bottom: 25px;
+right: 16px;
+}
+
+.rectangle18 {
+width: 101px;
+height: 12px;
+background: rgb(252, 252, 252);
+position: fixed;
+/*top: 756px;*/
+bottom: 9px;
+right: 16px;
+}
+
+.altkolon{
+    background: rgba(167, 164, 164, 0.6);
+    border-radius: 10px;
+    position:absolute;
+    z-index: -1;
+    height: 60px;
+    width: 1279px;
+    top: 760px;
+    left: 120px;
+    right: 120px;
+    transition: top 0.3s;
+}
+
+#takip{
+    position: absolute;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 510px;
+    top: 10px;
+    text-decoration: none; 
+    color: black;
+}
+
+#logo1{
+    position:absolute;
+    left: 720px;
+    top:10px;
+
+}
+
+#logo2{
+    position:absolute;
+    left: 768px;
+    top: 12px;
+    height: 35px;
+    width: 35px;
+}   
