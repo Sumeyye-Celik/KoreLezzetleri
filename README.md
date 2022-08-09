@@ -1,2 +1,2 @@
 # KoreLezzetleri
-İnternet Programlama dersi kapsamında oluşturulmuş ilk proje
+İnternet Programlama dersi kapsamında oluşturulmuş proje
